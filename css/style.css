@@ -1,0 +1,5 @@
+html{ background-image: url(../img/back.jpg); background-size: 100%; background-position: fixed;}
+body{}
+
+header{}
+	header p{font-size: 4em; font-family: sans-serif; color: #f8f6f9; text-align: center;}
