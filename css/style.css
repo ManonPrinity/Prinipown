@@ -1,8 +1,9 @@
-html{ background-image: url(../img/fractal2.jpg); background-size: 100%; }
-body{ background-position: fixed; background-repeat: no-repeat;}
+html { background-image: url(../img/fractal2.jpg); background-size: 100%; }
+body { background-position: fixed; background-repeat: no-repeat;}
 
-header{}
-	header p{font-size: 4em; font-family: sans-serif; color: #f8f6f9; text-align: center;}
+header {}
+	header p { font-size: 4em; font-family: sans-serif; color: #f8f6f9; text-align: center;}
+	#logo { height: 145px;}
 
 
 /* ---- mon slider ---- */
