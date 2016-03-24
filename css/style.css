@@ -1,26 +1,18 @@
-html{ background-image: url(../img/back.jpg); background-size: 100%;}
-body{ background-position: fixed;}
+html{ background-image: url(../img/fractal2.jpg); background-size: 100%; }
+body{ background-position: fixed; background-repeat: no-repeat;}
 
 header{}
 	header p{font-size: 4em; font-family: sans-serif; color: #f8f6f9; text-align: center;}
 
-#page{ width: 100%; height: auto; background-color: #8a7464;}
 
 /* ---- mon slider ---- */
 
-#mainDiv { display: block; width: 800px; margin: auto; text-align: center;
-	-moz-box-shadow: inset px 12px 10px 55px #656565;
-	-webkit-box-shadow: inset px 12px 10px 55px #656565;
-	-o-box-shadow: inset px 12px 10px 55px #656565;
-	box-shadow: inset px 12px 10px 55px #656565;
+#mainDiv { display: block; width: 100%; margin-left: -11px;
+	box-shadow: inset 12px 10px 55px #362133;
 	filter:progid:DXImageTransform.Microsoft.Shadow(color=#656565, Direction=180, Strength=10);
+	border-radius:12px;
+	border: 12px ridge #6200c9;
 }
 	#slider { display: block; position: relative; margin: auto; overflow: hidden;}
-		#slides { display: block; width: 796px; height: 600px; border: 2px solid #333; border-bottom: 1px solid #333; overflow: hidden;}
+		#slides { display: block; width: 100%; height: 300px; border: 2px solid #333; border-bottom: 1px solid #333; overflow: hidden;}
 		#slides img { display: block; position: absolute; z-index: -1; width: 800px; height: 600px; transition: all 0.5s;}
-.arrow { display: block; position: absolute; z-index: 2; width: 50px; height: 50px; padding: 5px; background: #000; opacity: 0.7; cursor: pointer; transition: all 0.2s;}
-#leftArrow { top: 275px; left: 0px;}
-	#leftArrow:hover { top: 270px; width: 60px; height: 60px;}
-#rightArrow { top: 275px; right: 0px;}
-	#rightArrow:hover { top: 270px; width: 60px; height: 60px;}
-
